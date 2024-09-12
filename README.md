@@ -42,3 +42,6 @@ This project includes automated API tests and performance testing for the Petsto
    
 2.  **View HTML Report**:
     After executing the tests, the HTML report will be stored in the performanceTesting/k6/reports directory. Open the HTML report in a browser to view the detailed performance results.
+    Example:
+<img width="1506" alt="image" src="https://github.com/user-attachments/assets/1579628c-6743-4638-82cf-cb5c8e62a28d">
+
