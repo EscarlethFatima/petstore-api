@@ -16,7 +16,7 @@ This project includes automated API tests and performance testing for the Petsto
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-repo/petstore-api-tests.git
+   git clone [https://github.com/your-repo/petstore-api-tests.git](https://github.com/EscarlethFatima/petstore-api.git)
    cd petstore-api-tests
 
 2. **Install dependencies**:
