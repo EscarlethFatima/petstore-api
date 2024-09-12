@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.12" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Petstore API Testing" name="Add a new pet to the store" time="2.5">
+<system-out><![CDATA[
+Given A pet with the following details......................................passed
+When I add the new pet to the store.........................................passed
+Then The pet is created successfully........................................passed
+When I retrieve the pet by id 100...........................................passed
+Then The pet name is "doggie"...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Petstore API Testing" name="Update a pet's details" time="2.148">
+<system-out><![CDATA[
+Given A pet with the following details......................................passed
+When I add the new pet to the store.........................................passed
+And I update the pet with the following details.............................passed
+Then The pet is updated successfully........................................passed
+When I retrieve the pet by id 101...........................................passed
+Then The pet name is "kitty"................................................passed
+And The pet status is "adopted".............................................passed
+And The pet tag name is "adorable"..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Petstore API Testing" name="Delete a pet and verify deletion" time="2.057">
+<system-out><![CDATA[
+Given A pet with the following details......................................passed
+When I add the new pet to the store.........................................passed
+And I delete the pet with id 102............................................passed
+Then The pet is deleted successfully........................................passed
+When I retrieve the pet by id 102...........................................passed
+Then The response status code is 404........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Petstore API Testing" name="Place and verify a new order in the store" time="1.407">
+<system-out><![CDATA[
+Given A new order is placed with the following details......................passed
+When I submit the order.....................................................passed
+Then I verify the order is successfully created with ID 10..................passed
+When I retrieve the order by ID 10..........................................passed
+Then The retrieved order details should match the submitted order...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Petstore API Testing" name="Delete a purchase in the store" time="2.11">
+<system-out><![CDATA[
+Given A new order is placed with the following details......................passed
+When I submit the order.....................................................passed
+Then I verify the order is successfully created with ID 10..................passed
+And I delete the purchase with id 10........................................passed
+Then The response status code should be 200.................................passed
+When I retrieve the order by ID 10..........................................passed
+Then The response status code should be 404.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations about user" name="Create a User" time="3.439">
+<system-out><![CDATA[
+Given A new user with the following details.................................passed
+When I create the user......................................................passed
+Then I verify the user was successfully created.............................passed
+When I retrieve the user by username "Brian"................................passed
+Then I verify the user information is retrieved.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Operations about user" name="Logs user into the system" time="1.357">
+<system-out><![CDATA[
+Given A new user with the following details.................................passed
+When I create the user......................................................passed
+When I login the user.......................................................passed
+Then I verify the user was successfully logged in...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
