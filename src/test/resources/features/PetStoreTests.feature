@@ -1,4 +1,4 @@
-Feature: Petstore API Testing
+Feature: Operations about pet
 
   Scenario: Add a new pet to the store
     Given A pet with the following details

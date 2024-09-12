@@ -1,4 +1,4 @@
-Feature: Petstore API Testing
+Feature: Operations about store
 
   Scenario: Place and verify a new order in the store
     Given A new order is placed with the following details
