@@ -8,7 +8,7 @@ export const options = {
 };
 
 export default function () {
-    const url = 'https://petstore.swagger.io/v2/pet';
+    const url = 'https://petstore.swagger.io/v3/pet';
     const payload = JSON.stringify({
         id: Math.floor(Math.random() * 10000), // Random ID
         name: 'Fluffy',

@@ -4,7 +4,7 @@ Feature: Operations about user
     Given A new user with the following details
       """
       {
-        "id": 10,
+        "id": 20,
         "username": "Brian",
         "firstName": "John",
         "lastName": "James",

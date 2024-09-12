@@ -9,7 +9,7 @@ export const options = {
 };
 
 export default function () {
-    const url = 'https://petstore.swagger.io/v2/store/inventory';
+    const url = 'https://petstore.swagger.io/v3/store/inventory';
     const res = http.get(url);
 
     check(res, {

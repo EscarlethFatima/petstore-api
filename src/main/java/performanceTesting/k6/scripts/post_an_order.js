@@ -9,7 +9,7 @@ export const options = {
 };
 
 export default function () {
-    const url = 'https://petstore.swagger.io/v2/store/order';
+    const url = 'https://petstore.swagger.io/v3/store/order';
     const payload = JSON.stringify({
         id: Math.floor(Math.random() * 10000), // Random order ID
         petId: Math.floor(Math.random() * 10000), // Random pet ID

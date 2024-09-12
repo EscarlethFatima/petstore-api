@@ -9,7 +9,7 @@ export const options = {
 };
 
 export default function () {
-    const url = 'https://petstore.swagger.io/v2/user/login?username=testuser&password=password123';
+    const url = 'https://petstore.swagger.io/v3/user/login?username=testuser&password=password123';
     const res = http.get(url);
 
     check(res, {

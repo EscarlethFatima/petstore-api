@@ -6,6 +6,7 @@ public class RequestBuilder {
     private final RequestSpecification request;
 
     public RequestBuilder() {
+        //BaseURI can be updated with  http://localhost:8080/api/v3/openapi.json the localt setup
         request = given().baseUri("https://petstore3.swagger.io/api/v3").contentType(ContentType.JSON);
     }
 

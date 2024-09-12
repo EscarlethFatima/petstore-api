@@ -8,7 +8,7 @@ export const options = {
 };
 
 export default function () {
-    const url = 'https://petstore.swagger.io/v2/pet/findByStatus?status=available';
+    const url = 'https://petstore.swagger.io/v3/pet/findByStatus?status=available';
     const res = http.get(url);
 
     check(res, {
